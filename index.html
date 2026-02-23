@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Balanced Sphere</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Montserrat', sans-serif; background-color: #fdfdfd; color: #333; }
+
+    header {
+      background: linear-gradient(to right, #8BC34A, #AED581);
+      color: white;
+      text-align: center;
+      padding: 80px 20px 40px;
+    }
+    header h1 { font-size: 3rem; }
+    header p { margin-top: 10px; font-size: 1.2rem; }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: white;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover { color: #8BC34A; }
+
+    .section {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 20px;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .section img {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+
+    .content {
+      flex: 1;
+    }
+
+    .content h2 {
+      color: #558B2F;
+      margin-bottom: 10px;
+    }
+
+    .content button {
+      background: #8BC34A;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .content button:hover {
+      background: #7CB342;
+    }
+
+    /* Follow Section */
+    .follow {
+      text-align: center;
+      padding: 50px 20px;
+      background: #f1f8e9;
+    }
+
+    .follow h2 {
+      margin-bottom: 20px;
+      color: #33691E;
+    }
+
+    .social-icons a {
+      font-size: 28px;
+      margin: 0 15px;
+      color: #558B2F;
+      transition: 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #1b5e20;
+      transform: scale(1.2);
+    }
+
+    footer {
+      background: #558B2F;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    @media(max-width: 768px) {
+      .section {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>The Balanced Sphere</h1>
+  <p>Your daily guide to wellness, beauty & healthy living</p>
+</header>
+
+<nav>
+  <a href="#skincare">Skincare</a>
+  <a href="#healthy">Healthy Living</a>
+  <a href="#selfcare">Self-Care</a>
+  <a href="#lifestyle">Lifestyle</a>
+</nav>
+
+<section class="section" id="skincare">
+  <img src="https://via.placeholder.com/500x300" alt="">
+  <div class="content">
+    <h2>Skincare</h2>
+    <p>Glow naturally with skincare routines and tips tailored for healthy radiant skin.</p>
+    <a href="https://www.instagram.com/thebalancedsphere?igsh=MXMxYnN4M3VlanFveg==" target="_blank">
+      <button>View on Instagram</button>
+    </a>
+  </div>
+</section>
+
+<section class="section" id="healthy">
+  <div class="content">
+    <h2>Healthy Living</h2>
+    <p>Simple habits and nutrition tips to help you live a balanced and energized life.</p>
+    <a href="https://www.tiktok.com/@the_balancedsphere?_r=1&_t=ZS-94ApUtztIdZ" target="_blank">
+      <button>Watch on TikTok</button>
+    </a>
+  </div>
+  <img src="https://via.placeholder.com/500x300" alt="">
+</section>
+
+<section class="section" id="selfcare">
+  <img src="https://via.placeholder.com/500x300" alt="">
+  <div class="content">
+    <h2>Self-Care</h2>
+    <p>Take care of your mind and body with intentional self-care routines.</p>
+    <a href="https://www.facebook.com/share/1FfBEhSYFG/" target="_blank">
+      <button>Join on Facebook</button>
+    </a>
+  </div>
+</section>
+
+<section class="section" id="lifestyle">
+  <div class="content">
+    <h2>Lifestyle</h2>
+    <p>Upgrade your daily habits with lifestyle tips for a better you.</p>
+    <a href="https://www.instagram.com/thebalancedsphere?igsh=MXMxYnN4M3VlanFveg==" target="_blank">
+      <button>Explore More</button>
+    </a>
+  </div>
+  <img src="https://via.placeholder.com/500x300" alt="">
+</section>
+
+<!-- FOLLOW SECTION -->
+<section class="follow">
+  <h2>Follow The Balanced Sphere</h2>
+  <div class="social-icons">
+    <a href="https://www.instagram.com/thebalancedsphere?igsh=MXMxYnN4M3VlanFveg==" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/share/1FfBEhSYFG/" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.tiktok.com/@the_balancedsphere?_r=1&_t=ZS-94ApUtztIdZ" target="_blank"><i class="fab fa-tiktok"></i></a>
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 The Balanced Sphere | Stay Balanced, Stay Beautiful
+</footer>
+
+</body>
+</html>
